@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahmoud Qasem</title>
+    <!-- normalize library -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- main css file -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- start header -->
+    <header>
+        <div class="user">
+            <img class="myphoto" src="images/myphoto.jpg" alt="my photo">
+            <h3 class="name">Mahmoud Qasem</h3>
+            <div class="post">Front End Developer</div>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <!-- <li><a href="#education">Education</a></li> -->
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="menu" class="fas fa-bars"></div>
+    <!-- end header -->
+    <!-- start home -->
+    <section class="home" id="home">
+        <h3>Welcome To My Portfolio</h3>
+        <h1>I'M <span>Mahmoud Qasem</span></h1>
+        <p>I am Mahmoud Qasem. I have been working as a front-end developer for more than a year, in which I gained a lot of experience and learned a lot. I am still learning.
+            I can build your site  it will be responsive to all devices. I hope you will find what you are looking for here
+            I also hope that you will be happy to deal with me. I am pleased to deal with you</p>
+        <a href="#about"><button class="btn">About Me<i class="fas fa-user"></i></button></a>
+    </section>
+    <!-- end home -->
+    <!-- start about -->
+    <section class="about" id="about">
+        <h1 class="heading"><span>About</span> Me</h1>
+        <div class="row">
+            <div class="info">
+                <h3><span>Name : </span> Mahmoud Qasem</h3>
+                <h3><span>Age : </span> 22</h3>
+                <h3><span>Qualification : </span> Faculty of Science, Al-Azhar University</h3>
+                <h3><span>Post : </span> Front End Developer</h3>
+                <h3><span>Language : </span> Arabic</h3>
+                <!-- <a href="#"><button class="btn">download CV <i class="fas fa-download"></i></button></a> -->
+            </div>
+            <div class="counter">
+                <div class="box">
+                    <span>1+</span>
+                    <h3>Year Of Experience</h3>
+                </div>
+                <div class="box">
+                    <span>7+</span>
+                    <h3>Projects completed</h3>
+                </div>
+                <div class="box">
+                    <span>10+</span>
+                    <h3>Happy Clients</h3>
+                </div>
+                <div class="box">
+                    <span>5+</span>
+                    <h3>Awards Won</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end about -->
+    <!-- start Portfolio -->
+    <section class="portfolio" id="portfolio">
+        <h1 class="heading">My <span>Portfolio</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <a href="https://ma7moudqasem.github.io/Leon_HTML_And_CSS_Template_One" target="_blank">
+                    <img src="images/leon.png" alt="leon">
+                </a>
+            </div>
+            <div class="box">
+                <a href="https://ma7moudqasem.github.io/Kasper_HTML_And_CSS_Template_Two" target="_blank">
+                    <img src="images/kasper.png" alt="Kasper">
+                </a>
+            </div>
+            <div class="box">
+                <a href="https://ma7moudqasem.github.io/cruds_system" target="_blank">
+                    <img src="images/cruds.png" alt="Cruds">
+                </a>
+            </div>
+            <!-- <div class="box">
+                <img src="images/landing.jpg" alt="leon">
+            </div>
+            <div class="box">
+                <img src="images/landing.jpg" alt="leon">
+            </div>
+            <div class="box">
+                <img src="images/landing.jpg" alt="leon">
+            </div>
+        </div> -->
+    </section>
+    <!-- end Portfolio -->
+    <!-- start contact -->
+    <section class="contact" id="contact">
+        <h1 class="heading"><span>Contact</span> Me</h1>
+        <div class="row">
+            <div class="content">
+                <h3 class="title">Contact Info</h3>
+                <div class="info">
+                    <h3><i class="fas fa-envelope"></i> <a href="mailto:2frikano@gmail.com">2frikano@gmail.com</a></h3>
+                    <h3><i class="fas fa-phone"></i> +2010-6099-8126</h3>
+                    <h3><i class="fas fa-phone"></i> +2015-5379-8126</h3>
+                    <h3><i class="fas fa-map-marker-alt"></i> Basyuon, Tanta, Egypt</h3>
+                </div>
+            </div>
+            <form action="">
+                <input type="text" placeholder="Your Name" class="box">
+                <input type="email" placeholder="Your Email" class="box">
+                <input type="text" placeholder="Your Project" class="box">
+                <textarea class="box message" placeholder="Your Message" cols="30" rows="10"></textarea>
+                <button type="submit" class="btn">Send <i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </section>
+    <!-- end contact -->
+    <footer>
+        <p>&copy; 2022 Made By <span class="mq">Mahmoud Qasem</span> All Right Reserved</p>
+    </footer>
+    <!-- scroll top button -->
+    <a href="#home" class="top">
+        <i class="fa-solid fa-angles-up scrolltop"></i>
+    </a>
+    <!-- Jquery Cdn Link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <!-- custom js file -->
+    <script src="js/portfolio.js"></script>
+</body>
+</html>
